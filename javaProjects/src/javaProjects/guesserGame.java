@@ -19,8 +19,8 @@ class Player {
 	
 	public int guessNumber() {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("player kindly guess the number");
-		playerGuessNum=scan.nextInt();
+		System.out.println("player kindly guess the number between 1 to 10: ");
+		playerGuessNum=scan.nextInt(); 
 		return playerGuessNum;
 	}
 }
