@@ -5,7 +5,8 @@ import java.util.Scanner;
  * Guesser Game-program will ask the guesser to guess a number and ask the players to guess the number which guessed by guesser
  * Guessing number should between 1 and 10
  * Players should guess between 1 and 10
- * 4 Players are part of this game */
+ * 4 Players are part of this game 
+ * Players are given name as player 1 till player player 4 by passing parameter to method*/
 
 class Guesser{
 	
